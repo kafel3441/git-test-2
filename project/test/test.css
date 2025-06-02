@@ -1,0 +1,22 @@
+*{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{background-color: rgb(7, 0, 37);
+    height:600px;
+width:600px;
+}
+.smallerbox{ background-color:blue ;
+width: 400px;
+height:400px;
+}
+.tinybox{background-color: aqua;
+height:200px;
+width:200px;}
+
+button{color: brown;
+justify-content: center;
+align-items: center;
+
+

@@ -1,0 +1,21 @@
+* {box-sizing:border-box}
+
+.button1 {
+    color:white;background-color:black
+}
+.button2 {
+    color:black;background-color:yellow
+}
+ 
+button{font-size:28px;font-family:'Times New Roman', Times, serif
+
+}
+*{
+    outline: 2px solid red;
+}
+.box {
+    width: 980px;
+    margin: 0 auto;
+    color: blueviolet;
+
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url(../pictures/background.jpeg) }
+    
+html{ background-color: rgb(255, 166, 0);}
+title{color: rgb(0, 0, 0);
+font-size: large;}
+
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    h1{
+    color:rgb(117, 75, 35)
+}
+
+.header{
+    color:rgb(238, 238, 103);
+    background-color: rgba(46, 42, 42, 0.842);
+}
+
+.ingredient-list{
+ background-color: rgb(224, 133, 80);
+ width:150px;
+ justify-content: start;
+ 
+}
+
+.header2{
+    width:100px;
+    height: 75px;
+    color: black;
+    font-size: large;
+    }
+
+    .steps-list{
+        justify-content: center;
+        align-content: center;
+        height: 120px;
+        background-color: rgb(224, 133, 80)}
+

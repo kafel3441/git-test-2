@@ -1,0 +1,85 @@
+.flexbox-container{
+  height:200px;
+  display:flex;
+  }
+
+.flexbox-item{
+  display:flex;
+  width:200px;
+  margin:10px;
+  border:3px solid black;
+  background: #dfdfdf;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox-item-1{
+  
+  background-color: green;
+  
+}
+
+.flexbox-item-2{
+  background-color:blue;
+  }
+
+.flexbox-item-3{
+  
+  background-color:violet;
+  
+  }
+  
+  
+  .flexbox-colum{
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width:150px;
+  }
+
+  .colum-item{
+    display:flex;
+    flex-direction: column;
+    height:150px;
+    width:150px;
+    gap:10px;
+    border: 3px solid black;
+    margin: 10px;
+    -ms-flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  .colum-item-1{
+
+    background-color:lightblue;
+
+  }
+
+  .colum-item-2{
+    background-color: blue;
+  }
+
+  .colum-item-3{
+    background-color: darkblue;
+  }
+  .row-item{
+    height: 200px;
+    width: 200px;
+    border:10px solid black;
+    display: flex;
+    justify-self: center;
+    margin:10px
+  }
+
+  .row-item-1{background-color: pink;
+  }
+
+  .row-item-2{background-color: rgb(112, 46, 57);
+  }
+
+  .row-item-3{background-color: rgb(39, 12, 17);
+  }
+  
